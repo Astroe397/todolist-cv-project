@@ -1,6 +1,8 @@
 package org.example;
-
 import java.io.Console; // adds me the needed IO interface in a cmd prompt
+import org.json.JSONObject;
+import java.io.FileWriter;
+import java.io.IOException;
 
 
 public class Main {
@@ -100,7 +102,9 @@ public class Main {
                 app.removeTask();
             }
         }
-        app.print("closing program");
+        app.print("saving data");
+
+
     }
 }
 
